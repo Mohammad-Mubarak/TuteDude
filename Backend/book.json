@@ -1,0 +1,588 @@
+[
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51e8O3to3LL.jpg",
+		"book_name": "Leaders Who Changed History",
+		"book_description": "A thrilling exploration of influential leaders throughout history, their impact on society, and the dramatic events that shaped their legacies.",
+		"book_genre": "Thriller",
+		"book_publish_year": "1996",
+		"book_author": "J.K. Rowling",
+		"id": 1
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41GH8rP2TbL.jpg",
+		"book_name": "The Power of the Elevation of Consciousness: Soul Restructuring: Volume 1",
+		"book_description": "A profound scientific exploration of consciousness and the potential for personal transformation, offering insights into the human mind and the power of self-discovery.",
+		"book_genre": "Science",
+		"book_author": "J.K. Rowling",
+		"book_publish_year": "1958",
+		"id": 2
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51DK49B6DAL.jpg",
+		"book_name": "Dewhurst's Textbook of Obstetrics & Gynaecology",
+		"book_description": "A comprehensive guide to the field of obstetrics and gynecology, covering the intricacies of women's health, reproductive systems, and the relationships between patients and their healthcare providers.",
+		"book_genre": "Romance",
+		"book_author": "Stephen King",
+		"book_publish_year": "2001",
+		"id": 3
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51qGGQQdpaL.jpg",
+		"book_name": "Tokyo Ghoul: re, Vol. 5",
+		"book_description": "A captivating romance set in a dark and supernatural world, following the complex relationships and intense emotions of characters as they navigate love, loss, and personal growth.",
+		"book_genre": "Romance",
+		"book_author": "Stephen King",
+		"book_publish_year": "2009",
+		"id": 4
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41m-NGsDRNL.jpg",
+		"book_name": "Time Management: The Brian Tracy Success Library",
+		"book_description": "A practical guide to optimizing time and productivity, offering scientifically-backed strategies and techniques to help individuals effectively manage their schedules, prioritize tasks, and achieve their goals.",
+		"book_genre": "Science",
+		"book_author": "Agatha Christie",
+		"book_publish_year": "1994",
+		"id": 5
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/31vZwn1j6wL.jpg",
+		"book_name": "The Habermas-Rawls Debate",
+		"book_description": "An intellectual exploration of the philosophical and ethical dimensions of social and political theory, focusing on the debate between the influential thinkers Jürgen Habermas and John Rawls.",
+		"book_genre": "Romance",
+		"book_author": "Agatha Christie",
+		"book_publish_year": "1929",
+		"id": 6
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51L8aa5U0yL.jpg",
+		"book_name": "Economics of Real-life: A New Exposition",
+		"book_description": "An insightful examination of economic principles applied to real-life scenarios, offering a fresh perspective on how economic theories intersect with everyday experiences and decision-making.",
+		"book_genre": "Science",
+		"book_author": "George R.R. Martin",
+		"book_publish_year": "1922",
+		"id": 7
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/415BbuA8QmL.jpg",
+		"book_name": "Twilight of American Sanity: A Psychiatrist Analyzes the Age of Trump",
+		"book_description": "A thought-provoking analysis of the psychological and social dynamics that characterized the era of former U.S. President Donald Trump, exploring the impact on American society and the collective psyche.",
+		"book_genre": "Romance",
+		"book_author": "George R.R. Martin",
+		"book_publish_year": "1978",
+		"id": 8
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51H-1UBojzL.jpg",
+		"book_name": "Eat Joy: Stories & Comfort Food from 31 Celebrated Writers",
+		"book_description": "A heartwarming collection of stories and recipes that celebrate the connection between food, emotions, and personal experiences, showcasing the power of food to bring joy and comfort.",
+		"book_genre": "Romance",
+		"book_author": "George R.R. Martin",
+		"book_publish_year": "2002",
+		"id": 9
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41gyI8UsGmL.jpg",
+		"book_name": "Lippincott's Pocket Medical Dictionary (Classic Reprint)",
+		"book_description": "A comprehensive medical dictionary featuring a wide range of terminology and definitions, serving as a valuable reference for healthcare professionals and students.",
+		"book_genre": "Science",
+		"book_author": "Jane Austen",
+		"book_publish_year": "2002",
+		"id": 10
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51DcZLM-B7L.jpg",
+		"book_name": "Happy 38th Birthday: Notebook, Journal, Diary, 105 Lined Pages, Cute Teddy Bear Themed Birthday Gifts for 38 Year Old Men or Women, Son or Daughter, ... Dad or Mom, Best Friend, Book Size 8 1/2 X 11",
+		"book_description": "A special birthday-themed notebook featuring cute teddy bear illustrations, providing a delightful space for personal reflections, journaling, or note-taking for anyone celebrating their 38th birthday.",
+		"book_genre": "Science",
+		"book_author": "Fyodor Dostoevsky",
+		"book_publish_year": "2007",
+		"id": 11
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41TCOm9o7aL.jpg",
+		"book_name": "Good Boss, Bad Boss",
+		"book_description": "An insightful exploration of effective leadership and management practices, highlighting the characteristics of good and bad bosses through real-life examples and actionable advice.",
+		"book_genre": "Romance",
+		"book_author": "Fyodor Dostoevsky",
+		"book_publish_year": "2007",
+		"id": 12
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51nugCzyHKL.jpg",
+		"book_name": "What's for Lunch, Papa Penguin?",
+		"book_description": "A charming children's book that follows the adventures of Papa Penguin as he searches for the perfect lunch for his hungry little penguins, teaching important lessons about family and cooperation along the way.",
+		"book_genre": "Psychology",
+		"book_author": "Neil Gaiman",
+		"book_publish_year": "2007",
+		"id": 13
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/415ZriwtA%2BL.jpg",
+		"book_name": "2020 Weekly & Monthly Planner: Dog - 6X9 Size - Glossy Soft Cover - Multi-Purpose: Organizer/Calendar/Notebook/Agenda/Diary/Journal. (Dog Themed Planners)",
+		"book_description": "A practical planner featuring a dog-themed design, providing weekly and monthly layouts for organizing schedules, appointments, notes, and to-do lists, making it a versatile tool for staying organized.",
+		"book_genre": "Historical Fiction",
+		"book_author": "Neil Gaiman",
+		"book_publish_year": "2019",
+		"id": 14
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41KVbjtaAaL.jpg",
+		"book_name": "Dil Hai Chhota Sa । दिल है छोटा सा",
+		"book_description": "A romantic novel set in the backdrop of India, exploring themes of love, relationships, and personal growth, while capturing the essence of Indian culture and emotions.",
+		"book_genre": "Psychology",
+		"book_author": "J.R.R. Tolkien",
+		"book_publish_year": "2009",
+		"id": 15
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41bff1J1IhL.jpg",
+		"book_name": "Enjocho Wristwatch Fashion Creative Paper Watch Led Waterproof Clock Tyvek Paper Strap Digital Watches 2018 one Size G",
+		"book_description": "A unique and creative wristwatch made from waterproof Tyvek paper, featuring LED digital displays and a fashionable design, offering a blend of style and functionality.",
+		"book_genre": "Psychology",
+		"book_author": "J.R.R. Tolkien",
+		"book_publish_year": "2004",
+		"id": 16
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51fazYaiCIL.jpg",
+		"book_name": "Cello Buttergel Superheroes Gel Pen Set - Pack of 10 (Blue)",
+		"book_description": "A set of superhero-themed gel pens in vibrant blue color, perfect for adding a touch of creativity and fun to writing, drawing, and artistic projects.",
+		"book_genre": "Romance",
+		"book_author": "Virginia Woolf",
+		"book_publish_year": "2004",
+		"id": 17
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51TGBb%2BI3TL.jpg",
+		"book_name": "Trinity College London Classical Guitar Exam Pieces 2020-2023: Grade 2",
+		"book_description": "A collection of classical guitar pieces curated specifically for Trinity College London's Grade 2 examinations, providing students with a selection of challenging and enjoyable repertoire to practice and perform.",
+		"book_genre": "Historical Fiction",
+		"book_author": "Virginia Woolf",
+		"book_publish_year": "1999",
+		"id": 18
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51OPwsBNzgL.jpg",
+		"book_name": "Controlling with SAP ERP: Business User Guide",
+		"book_description": "A comprehensive guide for business users on how to effectively utilize the SAP ERP system for financial controlling, covering key concepts, processes, and functionalities to streamline business operations.",
+		"book_genre": "Historical Fiction",
+		"book_author": "Virginia Woolf",
+		"book_publish_year": "2000",
+		"id": 19
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41cN5G0D6dL.jpg",
+		"book_name": "Tiny Musings",
+		"book_description": "A collection of short and insightful musings, offering glimpses into life's moments, emotions, and experiences, and inviting readers to reflect and find meaning in the little things.",
+		"book_genre": "Psychology",
+		"book_author": "William Shakespeare",
+		"book_publish_year": "1999",
+		"id": 20
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41UYrxozZTL.jpg",
+		"book_name": "Guide to English Proficiency, Logic & Quantitative Reasoning for JIPMER with 6 Past & 10 Practice Papers",
+		"book_description": "A comprehensive guide designed to help students prepare for the English proficiency, logic, and quantitative reasoning sections of the JIPMER entrance exam, featuring past papers and practice questions for effective exam preparation.",
+		"book_genre": "Romance",
+		"book_author": "William Shakespeare",
+		"book_publish_year": "1961",
+		"id": 21
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/417aBLZ6CmL.jpg",
+		"book_name": "TOOGOO Panda Black and White Finger Puppet and Hand Puppet",
+		"book_description": "A cute and interactive puppet set featuring black and white panda designs, allowing children to engage in imaginative play, storytelling, and puppetry for fun and educational experiences.",
+		"book_genre": "Psychology",
+		"book_author": "William Shakespeare",
+		"book_publish_year": "1961",
+		"id": 22
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/415QOMmKC-L.jpg",
+		"book_name": "A Little Alphabet",
+		"book_description": "An enchanting alphabet book designed to introduce young children to letters and language, featuring colorful illustrations and engaging activities to foster early literacy skills and a love for reading.",
+		"book_genre": "Romance",
+		"book_author": "William Shakespeare",
+		"book_publish_year": "1961",
+		"id": 23
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51YZjeOmGOL.jpg",
+		"book_name": "Aavya",
+		"book_description": "A captivating historical novel that transports readers to a bygone era, following the life journey of the protagonist and exploring themes of love, family, and societal dynamics against a rich historical backdrop.",
+		"book_genre": "History",
+		"book_author": "Paulo Coelho",
+		"book_publish_year": "1967",
+		"id": 24
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51UcdwG5sgL.jpg",
+		"book_name": "Handwriting Workbook for Kids: 3-in-1 Writing Practice Book to Master Letters, Words & Sentences",
+		"book_description": "A comprehensive workbook designed to help children develop and improve their handwriting skills, featuring exercises and practice pages for mastering letters, words, and sentences in a fun and engaging way.",
+		"book_genre": "History",
+		"book_author": "Paulo Coelho",
+		"book_publish_year": "1985",
+		"id": 25
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51hfWDo5ILL.jpg",
+		"book_name": "Nataraj Fluid X Ball Pens - Pack of 10",
+		"book_description": "A pack of high-quality ballpoint pens known for their smooth and consistent writing performance, making them ideal for everyday use, note-taking, and various writing tasks.",
+		"book_genre": "Romance",
+		"book_author": "Gillian Flynn",
+		"book_publish_year": "1968",
+		"id": 26
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51zmKQyPIZL.jpg",
+		"book_name": "Science Scense",
+		"book_description": "An intriguing exploration of various scientific concepts and phenomena, offering fascinating insights and explanations in an accessible and engaging manner, making science more approachable and enjoyable for readers of all ages.",
+		"book_genre": "Romance",
+		"book_author": "Gillian Flynn",
+		"book_publish_year": "1994",
+		"id": 27
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51xan47CZYL.jpg",
+		"book_name": "elegantstunning Lovely Talking Plush Hamster Toy, Can Change Voice, Record Sounds, Nod Head Or Walk, Early Education for Baby, Different Size for Choice Bright Brown and Nodding",
+		"book_description": "A delightful plush hamster toy that interacts with children, featuring voice-changing capabilities, sound recording functionality, and adorable movements such as nodding its head or walking, offering an entertaining and educational experience for young kids.",
+		"book_genre": "History",
+		"book_author": "Gillian Flynn",
+		"book_publish_year": "1994",
+		"id": 28
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51BsCE5Cr1L.jpg",
+		"book_name": "Fancyku Magic Random Color Snake Cube 24 Parts Twist Puzzle Ruler for Kids Various Shapes Brain Teaser",
+		"book_description": "A fascinating puzzle toy designed to challenge kids' problem-solving and logical thinking skills, featuring a snake cube with 24 interconnected parts that can be twisted and reshaped into various shapes, providing hours of entertainment and mental stimulation.",
+		"book_genre": "Romance",
+		"book_author": "James Patterson",
+		"book_publish_year": "1999",
+		"id": 29
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51wm9EoRNzL.jpg",
+		"book_name": "A Practical Grammar of the Avesta Language: Compared with Sanskrit, with a Chapter on Syntax and a Chapter on the Gatha Dialect (Classic Reprint)",
+		"book_description": "A comprehensive guide to the grammar of the Avestan language, comparing it with Sanskrit and featuring in-depth explanations of syntax and the unique Gatha dialect, offering valuable insights into ancient linguistics and Indo-Iranian studies.",
+		"book_genre": "Horror",
+		"book_author": "James Patterson",
+		"book_publish_year": "1977",
+		"id": 30
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41XeqnOqBLL.jpg",
+		"book_name": "Good Vibes Only: 2018 Weekly Monthly Planner Inspirational Quotes + to Do Lists: Volume 1 (Good Vibes Planners)",
+		"book_description": "A stylish planner featuring inspirational quotes, weekly and monthly layouts, and to-do lists, designed to help users stay organized, motivated, and focused on positive vibes throughout the year.",
+		"book_genre": "Horror",
+		"book_author": "Mark Twain",
+		"book_publish_year": "1933",
+		"id": 31
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51zSXZ%2BW6rL.jpg",
+		"book_name": "AsianHobbyCrafts Supreme quality wool pom pom pack of 100 - Color: Red",
+		"book_description": "A pack of high-quality red wool pom poms, perfect for various craft projects, DIY decorations, and adding a playful touch to artwork, accessories, and more.",
+		"book_genre": "Romance",
+		"book_author": "Maya Angelou",
+		"book_publish_year": "1933",
+		"id": 32
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41TcX3PYcwL.jpg",
+		"book_name": "BRISTLEBOT – BRUSHBOT - VIBROBOTS - Beam Robots - (DO IT Yourself Science Activity KIT)",
+		"book_description": "An engaging do-it-yourself science activity kit that allows children to build their own bristlebot, brushbot, and vibrobots, introducing them to basic engineering concepts and principles of vibration and movement.",
+		"book_genre": "Romance",
+		"book_author": "Maya Angelou",
+		"book_publish_year": "2015",
+		"id": 33
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/416d4bnvlSL.jpg",
+		"book_name": "Almost Everything: Notes on Hope",
+		"book_description": "A thought-provoking collection of essays and reflections on the theme of hope, exploring its significance, power, and transformative potential in various aspects of life, offering a refreshing perspective on finding positivity and resilience in challenging times.",
+		"book_genre": "Romance",
+		"book_author": "Neil Gaiman",
+		"book_publish_year": "2015",
+		"id": 34
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41UaZqeeaWL.jpg",
+		"book_name": "Neurofitness: A Brain Surgeon's Secrets to Boost Performance and Unleash Creativity",
+		"book_description": "An insightful book by a brain surgeon, sharing secrets and techniques for optimizing brain health and enhancing cognitive performance, offering practical tips and exercises to improve memory, focus, creativity, and overall mental well-being.",
+		"book_genre": "Horror",
+		"book_author": "Neil Gaiman",
+		"book_publish_year": "2007",
+		"id": 35
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/5118xDb-h6L.jpg",
+		"book_name": "Fashion HUB Brand Artificial Birds for Home and Garden Decor, Multicolour",
+		"book_description": "A set of multicolored artificial birds, designed to add a vibrant and decorative touch to home and garden spaces, perfect for creating an inviting and visually appealing environment.",
+		"book_genre": "Romance",
+		"book_author": "Neil Gaiman",
+		"book_publish_year": "1992",
+		"id": 36
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51NATf-rZkL.jpg",
+		"book_name": "Pumps and Compressors (Wiley-ASME Press Series)",
+		"book_description": "A comprehensive guide to pumps and compressors, covering their design, operation, maintenance, and applications in various industries, providing engineers and professionals with essential knowledge and insights into these critical machinery components.",
+		"book_genre": "Romance",
+		"book_author": "John Steinbeck",
+		"book_publish_year": "1990",
+		"id": 37
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/61mImx3sCgL.jpg",
+		"book_name": "It’s Not Just Academic!: Essays on Sufism and Islamic Studies",
+		"book_description": "A collection of thought-provoking essays on Sufism and Islamic studies, delving into the spiritual, philosophical, and cultural dimensions of Sufi thought and practices, offering valuable insights into the rich heritage and contemporary relevance of Sufism.",
+		"book_genre": "Horror",
+		"book_author": "John Steinbeck",
+		"book_publish_year": "1992",
+		"id": 38
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51SkzHHUp2L.jpg",
+		"book_name": "Rising From the Ashes of Bengal's Partition: Untold Story of a 'Phoenix' Aspiring to Live a New Life",
+		"book_description": "A captivating historical account of the Bengal Partition, chronicling the experiences of individuals and communities affected by the partition and their efforts to rebuild their lives, offering a poignant narrative of resilience, hope, and the human spirit.",
+		"book_genre": "Comedy",
+		"book_author": "John Steinbeck",
+		"book_publish_year": "1941",
+		"id": 39
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41p3%2BSutbdL.jpg",
+		"book_name": "Hands-On Reactive Programming with Python: Event-driven development unraveled with RxPY",
+		"book_description": "A practical guide to reactive programming with Python, introducing readers to event-driven development and the RxPY library, offering hands-on examples, projects, and real-world scenarios to help readers build responsive and scalable applications.",
+		"book_genre": "Comedy",
+		"book_author": "Harper Lee",
+		"book_publish_year": "1919",
+		"id": 40
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51qqSuA5ABL.jpg",
+		"book_name": "GMAT Official Guide Verbal Review 2019: Book + Online (Gmat Official Guides)",
+		"book_description": "A comprehensive guide specifically focused on the verbal section of the GMAT exam, featuring practice questions, strategies, and tips to help test-takers improve their verbal reasoning skills and achieve higher scores.",
+		"book_genre": "Comedy",
+		"book_author": "Harper Lee",
+		"book_publish_year": "1919",
+		"id": 41
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51Kc2nX4P4L.jpg",
+		"book_name": "Super Space Sticker Activity Book: Over 1,000 Stickers! (NG Sticker Activity Books)",
+		"book_description": "An engaging sticker activity book packed with over 1,000 space-themed stickers, offering children hours of creative and interactive fun as they complete various activities, puzzles, and scenes related to outer space.",
+		"book_genre": "Non-Fiction",
+		"book_author": "Harper Lee",
+		"book_publish_year": "1994",
+		"id": 42
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/513XlY%2BfJAL.jpg",
+		"book_name": "DEZIINE Eco Stationary Set with Memo Pads. Recycled Stationary with Case with Clip Writing Pad and Ballpoint Pen (Eco-05)",
+		"book_description": "An eco-friendly stationary set made from recycled materials, featuring memo pads, a writing pad, a ballpoint pen, and a case with a clip, providing users with essential tools for note-taking, writing, and organization while promoting sustainable practices.",
+		"book_genre": "Non-Fiction",
+		"book_author": "Isabel Allende",
+		"book_publish_year": "1974",
+		"id": 43
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51OsOg5jO6L.jpg",
+		"book_name": "Khasi-English Dictionary (Classic Reprint)",
+		"book_description": "A comprehensive dictionary that translates words and phrases between the Khasi and English languages, featuring a wide range of vocabulary and expressions, making it an essential reference for languagelearners and individuals interested in Khasi language and culture.",
+		"book_genre": "Non-Fiction",
+		"book_author": "Isabel Allende",
+		"book_publish_year": "1927",
+		"id": 44
+	},
+
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51I7%2BtAv7WL.jpg",
+		"book_name": "Sisters and Champions: The True Story of Venus and Serena Williams",
+		"book_description": "A captivating biography that chronicles the inspiring journey of tennis legends Venus and Serena Williams, showcasing their remarkable achievements, sibling bond, and groundbreaking impact on the world of sports.",
+		"book_genre": "Travel",
+		"book_author": "Isabel Allende",
+		"book_publish_year": "1926",
+		"id": 45
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/5152lxuWSgL.jpg",
+		"book_name": "SAT Total Prep 2020: 5 Practice Tests + Proven Strategies + Online + Video (Kaplan Test Prep)",
+		"book_description": "A comprehensive SAT preparation guide featuring practice tests, expert strategies, online resources, and video tutorials to help students excel in the SAT exam and achieve their desired scores.",
+		"book_genre": "Travel",
+		"book_author": "Dan Brown",
+		"book_publish_year": "1926",
+		"id": 46
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/314Qu9bNjbL.jpg",
+		"book_name": "Carceral Capitalism (Semiotext(e) / Intervention Series)",
+		"book_description": "A thought-provoking exploration of the relationship between capitalism and the prison system, analyzing the ways in which prisons have become profit-driven institutions and examining their impact on society.",
+		"book_genre": "Travel",
+		"book_author": "Dan Brown",
+		"book_publish_year": "1988",
+		"id": 47
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51wkLqtkMyL.jpg",
+		"book_name": "FidgetGear Monster Finger Puppets Set for Story Telling Props Party Favors,5Pcs/Set",
+		"book_description": "A delightful set of monster-themed finger puppets, perfect for storytelling, imaginative play, and party favors, providing entertainment and creative opportunities for children.",
+		"book_genre": "Adventure",
+		"book_author": "Dan Brown",
+		"book_publish_year": "1924",
+		"id": 48
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/61a-5enaV5L.jpg",
+		"book_name": "IndiPlay Wooden Wild Animals Identification Teaching Tray with Knobs (Wild Animals)",
+		"book_description": "An educational wooden tray featuring various wild animals with knobs, designed to help children learn about different animal species, enhance their fine motor skills, and promote sensory exploration.",
+		"book_genre": "Adventure",
+		"book_author": "Dan Brown",
+		"book_publish_year": "1924",
+		"id": 49
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51RCPrmkiAL.jpg",
+		"book_name": "Strengthen Your Back: Exercises to Build a Better Back and Improve Your Posture",
+		"book_description": "A comprehensive guide to strengthening the back muscles and improving posture, featuring exercises, stretches, and tips to alleviate back pain, enhance flexibility, and promote overall spinal health.",
+		"book_genre": "Adventure",
+		"book_author": "Gabriel García Márquez",
+		"book_publish_year": "1921",
+		"id": 50
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/61a7cGNBy3L.jpg",
+		"book_name": "The Land of Stories: The Ultimate Book Hugger's Guide",
+		"book_description": "A companion book to the popular `The Land of Stories` series, providing fans with insider information, behind-the-scenes details, character profiles, and interactive activities to further immerse themselves in the enchanting world created by author Chris Colfer.",
+		"book_genre": "Adventure",
+		"book_publish_year": "1921",
+		"book_author": "Gabriel García Márquez",
+		"id": 51
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51rcZEYkulL.jpg",
+		"book_name": "Cricket World Cup: The Indian Challenge (Updated Edition)",
+		"book_description": "A comprehensive account of India's journey in the Cricket World Cup, highlighting memorable matches, key players, and the nation's cricketing legacy, offering insights into India's challenges and triumphs in the prestigious tournament.",
+		"book_genre": "Adventure",
+		"book_publish_year": "1911",
+		"book_author": "Gabriel García Márquez",
+		"id": 52
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51S47sQ4eYL.jpg",
+		"book_name": "Nutrition and Diabetes: Pathophysiology and Management",
+		"book_description": "A comprehensive guide to understanding the pathophysiology of diabetes and its relationship with nutrition, offering evidence-based strategies for managing diabetes through dietary interventions, meal planning, and lifestyle modifications.",
+		"book_genre": "Romance",
+		"book_publish_year": "1962",
+		"book_author": "Gabriel García Márquez",
+		"id": 53
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41J5CBsA2PL.jpg",
+		"book_name": "Don't Call Us Dead",
+		"book_description": "A powerful collection of poetry exploring themes of race, identity, social justice, and mortality, offering a poignant and thought-provoking reflection on the experiences of Black individuals in contemporary society.",
+		"book_genre": "True Crime",
+		"book_publish_year": "1947",
+		"book_author": "Octavia Butler",
+		"id": 54
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41njdLsiQBL.jpg",
+		"book_name": "General Knowledge 2018 Manohar Pandey By AMICO",
+		"book_description": "A comprehensive book covering various aspects of general knowledge, including current affairs, history, geography, science, and more, providing readers with a wide range of information and facts to enhance their knowledge.",
+		"book_genre": "True Crime",
+		"book_author": "Octavia Butler",
+		"book_publish_year": "1967",
+		"id": 55
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41MMytgSsmL.jpg",
+		"book_name": "Financially Forward: How to Use Today's Digital Tools to Earn More, Save Better, and Spend Smarter",
+		"book_description": "A practical guide to leveraging digital tools and technologies for better financial management, offering insights, tips, and strategies to help individuals increase their earning potential, optimize savings, and make smarter financial decisions.",
+		"book_genre": "True Crime",
+		"book_author": "Octavia Butler",
+		"book_publish_year": "1949",
+		"id": 56
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/61EvnWhbZAL.jpg",
+		"book_name": "PT: The Ultimate Personal Training Book - All-In-One Log Book and Personal Training Journal",
+		"book_description": "A comprehensive personal training book that serves as an all-in-one log book and training journal. With its user-friendly format and ample space for recording workouts, progress, and goals, this book helps individuals track their fitness journey, stay motivated, and achieve optimal results.",
+		"book_genre": "Science Fiction",
+		"book_author": "Chinua Achebe",
+		"book_publish_year": "1996",
+		"id": 57
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51e6P-vpdWL.jpg",
+		"book_name": "Mesmerism in India, and Its Practical Application in Surgery and Medicine",
+		"book_description": "A fascinating exploration of mesmerism and its practical applications in the fields of surgery and medicine, offering insights into the historical development and contemporary relevance of mesmerism as a therapeutic technique.",
+		"book_genre": "Science Fiction",
+		"book_author": "Chinua Achebe",
+		"book_publish_year": "1911",
+		"id": 58
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51LHO5FUagL.jpg",
+		"book_name": "Light Up LED Board | Draw, Sketch, Create, Doodle, Art, Write, Learning Tablet for Kids Fun Magic Lighting pad",
+		"book_description": "An interactive LED board designed for kids to draw, sketch, create, and doodle. With its colorful lights and easy-to-use features, this board sparks creativity, promotes artistic expression, and provides hours of entertainment for children.",
+		"book_genre": "Science Fiction",
+		"book_author": "Chinua Achebe",
+		"book_publish_year": "1978",
+		"id": 59
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41OAcggUTmL.jpg",
+		"book_name": "DokFin Kids Digital Camera, Mini 2.00 Inch Screen HD 1080P Video Recorder Camcorder with Loop Recording Children Toy Camera",
+		"book_description": "A mini digital camera designed specifically for kids, featuring a 2.00-inch screen, HD 1080P video recording, and loop recording function. This camera allows children to capture their favorite moments, develop their photography skills, and explore the world of visual storytelling.",
+		"book_genre": "Science Fiction",
+		"book_author": "Arundhati Roy",
+		"book_publish_year": "1947",
+		"id": 60
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51W1sBPO7tL.jpg",
+		"book_name": "The Pragmatic Programmer: your journey to mastery, 20th Anniversary Edition",
+		"book_description": "A revised and updated edition of the classic programming guide that offers practical advice, best practices, and timeless principles to help programmers enhance their skills, improve their problem-solving abilities, and embark on a journey towards mastery.",
+		"book_genre": "Science Fiction",
+		"book_author": "Arundhati Roy",
+		"book_publish_year": "1948",
+		"id": 61
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/51NMJkyJEAL.jpg",
+		"book_name": "Legal Drafting: Do it Yourself",
+		"book_description": "A comprehensive guide to legal drafting, offering practical tips, examples, and templates to assist individuals in preparing various legal documents, including contracts, agreements, wills, and more, empowering readers to handle their legal needs with confidence.",
+		"book_genre": "Mystery",
+		"book_author": "Arundhati Roy",
+		"book_publish_year": "1948",
+		"id": 62
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41DPp1oQV1L.jpg",
+		"book_name": "Tiny But Mighty: Kitten Lady's Guide to Saving the Most Vulnerable Felines",
+		"book_description": "An insightful and heartwarming book by Kitten Lady, a renowned animal rescuer and advocate, providing practical advice, heartwarming stories, and inspiring anecdotes about saving and caring for orphaned and vulnerable kittens.",
+		"book_genre": "Mystery",
+		"book_author": "John green",
+		"book_publish_year": "1942",
+		"id": 63
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/31X-fodbrfL.jpg",
+		"book_name": "The Hero",
+		"book_description": "A captivating novel that explores the journey of a hero, delving into their struggles, triumphs, and personal growth as they navigate through challenges, discover their true purpose, and leave a lasting impact on the world around them.",
+		"book_genre": "Mystery",
+		"book_author": "John green",
+		"book_publish_year": "1948",
+		"id": 64
+	},
+	{
+		"book_url": "https://images-eu.ssl-images-amazon.com/images/I/41xkyuDeCOL.jpg",
+		"book_name": "India Emerging: From Policy Paralysis to Hyper Economics",
+		"book_description": "A comprehensive analysis of India's economic transformation, examining its journey from policy paralysis to a hyper-economic growth phase, shedding light on the factors, policies, and strategies that have contributed to India's emergence as a global economic powerhouse.",
+		"book_genre": "Mystery",
+		"book_author": "John green",
+		"book_publish_year": "1971",
+		"id": 65
+	}
+]
