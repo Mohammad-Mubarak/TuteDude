@@ -3,7 +3,7 @@ import React from 'react'
 import { Button, Modal, Row, Col, Form, Input } from 'antd'
 
 
-import { ToastContainer, toast } from 'react-toastify'
+import {toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import axios from "axios"
 
@@ -27,9 +27,7 @@ const Login = ({ modalState, handleCloseModal }) => {
         if (val.data.token) {
           localStorage.setItem("token", JSON.stringify(val.data.token))
           localStorage.setItem("user", JSON.stringify(val.data.user))
-        } else {
-          alert("Please enter correct details")
-        }
+        } 
 
         notify()
         handleCloseModal()

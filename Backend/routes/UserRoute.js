@@ -2,11 +2,13 @@
 const express = require('express')
 const router = express.Router()
 const { signup, login, logout } = require("../controller/UserController")
-const { search, BookById ,favouraiteBook} = require("../controller/BookController")
-const Book= require("../models/Book")
+const { search, BookById, favouraiteBook } = require("../controller/BookController")
+const Book = require("../models/Book")
 
+const Review = require("../models/Review")
 
-const {UserLoggedIn} = require("../middlewares/userLoggedIn")
+const {addcomment,addRating,allComments} = require("../controller/ReviewController")
+const { UserLoggedIn } = require("../middlewares/userLoggedIn")
 const FBook = require("../models/FavBook")
 
 // get and post route for signup (//?)
@@ -24,16 +26,23 @@ router.route("/search/:value").get(search)
 // book details by id
 router.route("/book/:id").post().get(BookById)
 
+
 // testing protected route
-router.route("/md").get(UserLoggedIn,(_,res)=>{
+router.route("/md").get(UserLoggedIn, (_, res) => {
     res.json({
-        message:"done"
+        message: "done"
     })
 })
 
-
+// added to fav
 router.route("/favouraite").post(favouraiteBook)
 
+
+// get all fav books
+router.route("/allfavouraite/:id").get(async (req, res) => {
+    const User_FavBook = await FBook.findOne({ userId: req.params.id })
+    res.send(User_FavBook.AllBooks)
+})
 
 
 router.route("/allbooks").get(async (req, res) => {
@@ -42,6 +51,15 @@ router.route("/allbooks").get(async (req, res) => {
 })
 
 
+
+// add review
+router.route("/addreview").post(addcomment);
+  
+// All review
+router.route("/getreview/:id").get(allComments);
+
+// add rating
+router.route("/rate").post(addRating);
 
 
 module.exports = router

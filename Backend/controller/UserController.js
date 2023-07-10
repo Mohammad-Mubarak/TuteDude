@@ -31,14 +31,12 @@ exports.signup = async (req, res) => {
         // Save the user to the database
         const user = await newUser.save();
 
-
 		const FavBookUser = new FBook({
 			userId : user._id,
 			AllBooks:[]
 		})
 
 		await FavBookUser.save()
-
 
         // Generate and send the token
         Tokencreate(user, res);

@@ -19,16 +19,13 @@ const { Header, Sider, Content } = Layout
 
 
 function LandingPage() {
-  const { searchText, setSearchText, setAllBooks} = useContext(ProductContext)
+  const { searchText, setSearchText, setAllBooks } = useContext(ProductContext)
   let user = localStorage.getItem("user")
   const [userloggedIn, setUserloggedIn] = useState(user)
   const [collapsed, setCollapsed] = useState(true)
   const [open, setOpen] = useState(false)
 
-
-  
   const navigate = useNavigate()
-
   const {
     token: { colorBgContainer },
   } = theme.useToken()
@@ -36,11 +33,15 @@ function LandingPage() {
   const loginModal = useCreateModalState()
 
 
-  
   const handleMenuClick = (e) => {
     // Handle menu item click based on the key
     if (e.key === "1") {
-      // Handle Favourites menu item click
+      let { _id } = JSON.parse(localStorage.getItem("user"))
+
+      axios.get(`http://localhost:3000/allfavouraite/${_id}`)
+        .then(response => {
+          setAllBooks(response.data)
+        })
       console.log("Favourites clicked")
     } else if (e.key === "2") {
       // Handle Books menu item click
@@ -48,8 +49,8 @@ function LandingPage() {
         .then(response => {
           setAllBooks(response.data)
         })
-        navigate("/")
-         console.log("Books clicked")
+      navigate("/")
+      console.log("Books clicked")
     }
   }
 
@@ -65,7 +66,6 @@ function LandingPage() {
         setAllBooks(response.data)
       })
   }
-
 
   useEffect(() => {
     axios.get('http://localhost:3000/allbooks')
@@ -99,9 +99,12 @@ function LandingPage() {
           }}
         >
           <Menu theme="dark" mode="inline" onClick={handleMenuClick}>
-            <Menu.Item key="1" icon={<HeartFilled />} label="Favourites">
-              Favourites
-            </Menu.Item>
+            {
+              user ? <Menu.Item key="1" icon={<HeartFilled />} label="Favourites">
+                Favourites
+              </Menu.Item> : null
+            }
+
             <Menu.Item key="2" icon={<BookOutlined />} label="Books">
               Books
             </Menu.Item>
@@ -142,9 +145,11 @@ function LandingPage() {
             }}
           >
             <Menu theme="dark" mode="inline" onClick={handleMenuClick}>
-              <Menu.Item key="1" icon={<HeartFilled />} label="Favourites">
-                Favourites
-              </Menu.Item>
+              {
+                user ? <Menu.Item key="1" icon={<HeartFilled />} label="Favourites">
+                  Favourites
+                </Menu.Item> : null
+              }
               <Menu.Item key="2" icon={<BookOutlined />} label="Books">
                 Books
               </Menu.Item>
@@ -183,7 +188,7 @@ function LandingPage() {
 
           <GroupedButton>
             {
-              user ? <Button style={{background:"red",color:"white"}}
+              user ? <Button style={{ background: "red", color: "white" }}
                 onClick={() => {
                   logoutUser()
                 }}
@@ -191,7 +196,7 @@ function LandingPage() {
                 logout
               </Button> : <>
                 <Button
-                style={{background:"green",color:"white"}}
+                  style={{ background: "green", color: "white" }}
                   onClick={() => {
                     loginModal.openModal()
                   }}
@@ -199,7 +204,7 @@ function LandingPage() {
                   Login
                 </Button>
                 <Button
-                   style={{background:"blue",color:"white"}}
+                  style={{ background: "blue", color: "white" }}
                   onClick={() => {
                     signupModal.openModal()
                   }}
@@ -225,7 +230,7 @@ function LandingPage() {
             background: colorBgContainer,
           }}
         >
-         <Outlet/>
+          <Outlet />
         </Content>
       </Layout>
     </Layout>

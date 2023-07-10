@@ -2,6 +2,7 @@ import { HeartOutlined, EyeOutlined } from '@ant-design/icons'
 import { useNavigate } from 'react-router-dom'
 import styled from 'styled-components'
 import { Avatar, Card } from 'antd'
+import { ToastContainer, toast } from 'react-toastify'
 
 import { useState, useEffect } from 'react'
 import axios from 'axios'
@@ -10,8 +11,16 @@ const { Meta } = Card
 
 const BookCard = ({ product }) => {
 
-  console.log("🧜‍♂️🦴 ~> file: BookCard.jsx:13 ~> BookCard ~> product:  :-> >", product._id)
-
+  const notify = () => toast.success(`👍 Added To Fav !`, {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+  })
 
   const navigate = useNavigate()
 
@@ -19,9 +28,17 @@ const BookCard = ({ product }) => {
     navigate('/detail', { state: product })
   }
 
-  const handleClickLove = () => {
+  const handleClickLove = async () => {
+    let {_id} = JSON.parse(localStorage.getItem("user")) || ""
+
+    let dataFav = {
+      userId:_id,
+      BookId:product._id
+    }
+    console.log("🧜‍♂️🦴 ~> file: BookCard.jsx:34 ~> handleClickLove ~> dataFav:  :-> >", dataFav)
     // api call to add in fav
-    console.log("added")
+   await axios.post("http://localhost:3000/favouraite",dataFav)
+    notify()
   }
 
   return (

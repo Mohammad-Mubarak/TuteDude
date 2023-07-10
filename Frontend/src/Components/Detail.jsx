@@ -3,19 +3,30 @@ import styled from "styled-components"
 import { Row, Col, Typography, Card, Input, Carousel, Button } from "antd"
 import { useLocation } from "react-router-dom"
 import Star from "./Star"
-
+import { ToastContainer, toast } from 'react-toastify'
 import { UserOutlined } from '@ant-design/icons'
 import { Avatar, Space } from 'antd'
 import axios from "axios"
 import BookCard from "./BookCard"
 import { ProductContext } from "../Helper/Context"
-
 const url = 'https://gw.alipayobjects.com/zos/rmsportal/KDpgvguMpGfqaHPjicRK.svg'
 
-const Detail = ({ state }) => {
-  const { allBooks, setAllBooks } = useContext(ProductContext)
 
+const Detail = ({ state }) => {
+  const notify = () => toast.success(`👍 review added !`, {
+    position: "top-right",
+    autoClose: 5000,
+    hideProgressBar: false,
+    closeOnClick: true,
+    pauseOnHover: true,
+    draggable: true,
+    progress: undefined,
+    theme: "light",
+  })
+
+  const { allBooks, setAllBooks } = useContext(ProductContext)
   const [Book, setBook] = useState({})
+  const [Allreview, setAllreview] = useState([])
   const [textareaValue, setTextareaValue] = useState("")
   const location = useLocation()
 
@@ -23,6 +34,27 @@ const Detail = ({ state }) => {
     axios.get(`http://localhost:3000/search/${data}`)
       .then(response => {
         setAllBooks(response.data)
+      })
+      .catch(error => {
+        console.error('Error:', error)
+      })
+
+    const bookidNo = location.state
+    axios.get(`http://localhost:3000/getreview/${bookidNo._id}`)
+      .then(response => {
+        setAllreview(response.data[0].comments)
+      })
+      .catch(error => {
+        console.error('Error:', error)
+      })
+  }
+
+
+  function toGetReviewUpdate(){
+    const bookidNo = location.state
+    axios.get(`http://localhost:3000/getreview/${bookidNo._id}`)
+      .then(response => {
+        setAllreview(response.data[0].comments)
       })
       .catch(error => {
         console.error('Error:', error)
@@ -38,9 +70,22 @@ const Detail = ({ state }) => {
   const { Text, Title } = Typography
   const { TextArea } = Input
 
-  const handleClick = () => {
-    console.log("Textarea Value:", textareaValue)
+  function handleClick() {
+    let { name } = JSON.parse(localStorage.getItem("user"))
+    const datamsg = {
+      name: name,
+      comment: textareaValue,
+      bookid: Book._id
+    }
+
+    axios.post(`http://localhost:3000/addreview`, datamsg)
+      .then(response => {
+        toGetReviewUpdate()
+        console.log(response.data)
+      })
+    notify()
   }
+
   return (
     <Container>
       <Row gutter={16}>
@@ -88,7 +133,7 @@ const Detail = ({ state }) => {
 
           <Row align="start">
             <Col>
-              <Star
+              <Star bookid={Book._id}
               />
             </Col>
           </Row>
@@ -111,8 +156,6 @@ const Detail = ({ state }) => {
             </Col>
           </Row>
 
-
-
           <Row align="start">
             <Col>
               <Button style={{ marginTop: "0.5rem" }} onClick={handleClick}>
@@ -121,6 +164,35 @@ const Detail = ({ state }) => {
             </Col>
           </Row>
         </Col>
+
+
+        <Col>
+          <Row>
+            <Title level={4}>
+              <b>Reviews 🧑‍🦳</b>
+            </Title>
+          </Row>
+          <Row>
+            {
+              Allreview.length === 0 ? null : <>
+                <ScrollableCard>
+                  {Allreview.map((comment) => {
+                    return (
+                      <CommentCard>
+                        <Space size={16} wrap>
+                          <Avatar style={{ backgroundColor: '#87d068' }} icon={<UserOutlined />} />
+                        </Space>
+                        <span style={{ color: "red" }}>{comment.name}: </span><br />{comment.message}
+                      </CommentCard>
+                    )
+                  })}
+                </ScrollableCard>
+              </>
+            }
+
+          </Row>
+        </Col>
+
 
       </Row>
       <br />
@@ -131,7 +203,7 @@ const Detail = ({ state }) => {
         <Col>
           <RecomContainer>
             {allBooks.map((product) => {
-              return <BookCard  key={product.id} product={product} />
+              return <BookCard key={product.id} product={product} />
             })}
           </RecomContainer>
         </Col>
@@ -161,8 +233,19 @@ const RecomContainer = styled.div`
 `
 
 
+const ScrollableCard = styled(Card)`
+  height: 300px;
+  max-width: 300px;
+  overflow: auto;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+`
 
 
+const CommentCard = styled(Card)`
+  padding: 0.4rem;
+  margin: 0.5rem;
+  border-radius: 1rem;
+`;
 
 
 

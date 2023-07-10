@@ -3,9 +3,11 @@ import { passwordValidation } from '../Helper/util'
 import { Button, Modal, Row, Col, Form, Input } from 'antd'
 import { ToastContainer, toast } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
+import { useNavigate } from 'react-router-dom'
 import axios from "axios"
 
 const Signup = ({ modalState, handleCloseModal }) => {
+  const navigate = useNavigate()
 
   const onFinish = (value) => {
     console.log('Data coming', value)
@@ -25,15 +27,14 @@ const Signup = ({ modalState, handleCloseModal }) => {
         if (val.data.token) {
           localStorage.setItem("token", JSON.stringify(val.data.token))
           localStorage.setItem("user", JSON.stringify(val.data.user))
-        } else {
-          alert("Please enter correct details")
-        }
+        } 
 
         notify()
       })
       .catch(e => console.log(e))
 
     handleCloseModal()
+    navigate("/")
   }
 
   return (
@@ -140,7 +141,7 @@ const Signup = ({ modalState, handleCloseModal }) => {
 
 
 
- {/* Notification for form  */}
+      {/* Notification for form  */}
       <ToastContainer
         position="top-right"
         autoClose={1000}
